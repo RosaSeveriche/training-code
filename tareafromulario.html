@@ -1,0 +1,107 @@
+< CODETYPE  html >
+< html >
+    < cabeza >
+        < título > Formulario Registro de trabajadores </ título >
+        < link  href = " rosa_html / css / style.css " rel = " stylesheet " type = " text / css " >
+        < style  type = " text / css " >
+.centradoVerde {
+    Familia tipográfica : verdana;
+    tamaño de fuente : 15 px ;
+    texto alineado : centro;
+    color de fondo : # 9cff9c ;
+    altura : 40 px ;
+}
+. letras {
+    Familia tipográfica : Verdana;
+    tamaño de fuente : 12 px ;
+}
+. valor {
+    Familia tipográfica : Verdana;
+    tamaño de fuente : 12 px ;
+}
+        </ estilo >
+    </ cabeza >
+    < cuerpo >
+        < h1 > Formulario Tarea </ h1 >
+        < div  id = " encabezado " >
+        < div  id = " cuerpo " >
+            < div  id = " Formulario " >
+                < form  name = " FormRegistro " action = " procesado.php " method = " POST " >
+                    < table  align = " center " border = " 0 " >
+                        < tr >
+                            < td  class = " centradoVerde " colspan = " 2 " > Registro de trabajadores </ td >
+                        </ tr >
+                        < tr >
+                            < td  class = " letras " > Rut: </ td >
+                            < td  class = " valor " >
+                                < input  type = " text " name = " txtRut " maxlength = " 12 " size = " 12 " placeholder = " Sin puntos y gui & oacute; n " >
+                            </ td >
+                        </ tr >
+                        < tr >
+                            < td  class = " letras " > Nombre: </ td >
+                            < td  class = " valor " >
+                                < input  type = " text " name = " txtNombre " >
+                            </ td >
+                        </ tr >
+                        < tr >
+                            < td  class = " letras " > Apellido Paterno: </ td >
+                            < td  class = " valor " >
+                                < input  type = " text " name = " txtApePat " >
+                            </ td >
+                        </ tr >
+                        < tr >
+                            < td  class = " letras " > Apellido Materno: </ td >
+                            < td  class = " valor " >
+                                < input  type = " text " name = " txtApeMat "
+                            </ td >
+                        </ tr >
+                        < tr >
+                            < td  class = " letras " > Sexo: </ td >
+                            < td  class = " valor " >
+                                < input  type = " radio " name = " opSexo " value = " m " > Masculino
+                                < input  type = " radio " name = " opSexo " value = " f " > Femenino
+                            </ td >
+                        </ tr >
+                        < tr >
+                            < td  valign = " top " class = " letras " > Nivel de estudio: </ td >
+                            < td  class = " valor " >
+                                < Entrada  tipo = " casilla de verificación " nombre =" opEstudio " valor =" 1 " > No tiene < br >
+                                < Entrada  tipo = " casilla de verificación " nombre =" opEstudio " valor =" 2 " > t & eacute; cnico < br >
+                                < input  type = " checkbox " name = " opEstudio " value = " 3 " > Universitario
+                            </ td >
+                        </ tr >
+                        < tr >
+                            < td  class = " letras " > Ciudad de nacimiento </ td >
+                            < td  class = " valor " >
+                                < select  name = " ciudad " >
+                                    < option  value = " 1 " > Caracas </ option >
+                                    < option  value = " 2 " > Maracaibo </ option >
+                                    < option  value = " 3 " > Valencia </ option >
+                                </ select >
+                            </ td >
+                        </ tr >
+                        < tr >
+                            < td  class = " letras " > Currículum </ td >
+                            < td  class = " valor " >
+                                < input  type = " file " name = " Curriculum " >
+                            </ td >
+                        </ tr >
+                        < tr >
+                            < td  class = " letras " > Foto </ td >
+                            < td  class = " valor " >
+                                < input  type = " file " name = " Foto " >
+                            </ td >
+                        </ tr >
+
+                        < tr >
+                            < td  class = " centradoVerde " colspan = " 2 " >
+                                < input  type = " submit " name = " btnRegistrar " value = " Registrar trabajador " >
+                            </ td >
+                        </ tr >
+                    </ table >
+                </ form >
+            </ div >
+        </ div >
+        </ div >
+    </ cuerpo >
+</ html >
