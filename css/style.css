@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0 auto;
     padding: 0px;
@@ -128,4 +129,9 @@ body{
     border: 3px;
     margin: 1px;
     background-color: white;
+=======
+h1 {
+    font-size: 20px;
+    background: aquamarine;
+>>>>>>> 9a16dca1fc2b34a58e863a240f8e00c13c2b2268
 }

@@ -1,0 +1,77 @@
+<CODETYPE html>
+<html>
+<head>
+    <title>Formulario 1.2</title>
+</head>
+<body>
+    <h1 style="color:rgba(59, 22, 168, 0.5);">Formulario con botones de radio:</h1>
+    <form>
+        <input type="radio" id="Masculino" name="gender" value="Masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="Femenino" name="gender" value="Femenino">
+        <label for="Femenino">Femenino</label><br>
+        <input type="radio" id="Extraterrestre" name="gender" value="extraterrestre">
+        <label for="extraterrestre">Extraterrestre</label><br><br>
+    </form><br>
+    <h1 style="color:rgba(59, 22, 168, 0.5);">Formulario con boton de enviar:</h1>
+    <form action="">
+        <label for="Nombre">Nombre:</label><br>
+        <input type="text" id="Nombre" name="Nombre"><br><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="Contraseña">Contraseña:</label><br>
+        <input type="password" id="contrase&ntilde;a" name="contraseña"><br><br>
+        <input type="submit" value="submit">
+    </form><br>
+    <h1 style="color:rgba(59, 22, 168, 0.5);">Formulario de lista desplegable:</h1>
+    <form action="">
+        <label for="color">Elige un color:</label>
+        <select id="color" name="color">
+            <option value="Amarillo">Amarillo</option>
+            <option value="Azul">Azul</option>
+            <option value="Rojo">Rojo</option>
+        </select>
+        <input type="submit">
+    </form><br>
+    <h1 style="color:rgba(59, 22, 168, 0.5);">Formulario con conjunto de campos:</h1>
+    <form action="">
+        <fieldset>
+          <legend>Tus datos:</legend>
+          <label for="Nombre">Nombre:</label><br>
+          <input type="text" id="Nombre" name="Nombre"><br>
+          <label for="Apellido">Apellido:</label><br>
+          <input type="text" id="Apellido" name="Apellido"><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form><br>
+      <h1 style="color:rgba(59, 22, 168, 0.5);">Formulario datalista:</h1>
+      <form action="">
+        <input list="browser" name="browser">
+        <datalist id="browser">
+          <option value="chrome">
+          <option value="Opera">
+          <option value="internet explore">
+        </datalist>
+        <input type="submit">
+      </form><br><br>
+      <h1 style="color:rgba(59, 22, 168, 0.5);">Formulario de entrada de fecha:</h1>
+      <form action="">
+        <label for="birthday">Fecha:</label>
+        <input type="date" id="Fecha" name="Fecha">
+        <input type="submit" value="Submit">
+      </form><br><br>
+      <h1 style="color:rgba(59, 22, 168, 0.5);">Formulario de Numero telef&oacute;nico:</h1>
+      <form action="">
+        <label for="Tel&eacute;fono">Ingrese su numero telef&oacute;nico:</label><br><br>
+        <input type="tel" id="Tel&eacute;fono" name="Tel&eacute;fono" placeholder="1234-5678" pattern="[0-9]{4}-[0-9]{4}" required><br><br>
+        <small>Ejemplo: 1234-5678</small><br><br>
+        <input type="submit" value="Submit">
+      </form><br><br>
+      <h1 style="color:rgba(59, 22, 168, 0.5);">Formulario de selecci&oacute;n de Archivos:</h1>
+      <form action="">
+        <label for="Archivos">Selecci&oacute;n de Archivos:</label>
+        <input type="file" id="Archivos" name="Archivos" multiple><br><br>
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
