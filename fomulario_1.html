@@ -1,25 +1,19 @@
 <html>
 <head><title>Formulario n°1</title></head>
+<script src="js/main.js"></script>
 <body>
-<h1>Formulario</h1>
-    <input type="text" name="BoxText"><br>
-    <input type="number" name="BoxNumber"><br>
-    <input type="email" name="BoxEmail"><br>
-    <input type="text" size="50" value="Nombre" name="nombre"><br>
-    <input type="text" size="50" value="Apellido" name="Apellido"><br>
-    <textarea name="Comentarios" rows="5" cols="50">textarea</textarea>
-<h1>Formulario nª2:</h1>
-<form>
+<h1>Formulario:</h1>
+<form method="POST" id="root">
     <label>Nombre:</label><br>
-    <input type="text" name="Nombre"><br><br>
+    <input type="text" name="nombre" placeholder="Ingresar Nombre" id="nombre"><br><br>
     <label>Apellido:</label><br>
-    <input type="text" name="Apellido"><br><br>
+    <input type="text" name="apellido" placeholder="Ingresar Apellido" id="apellido"><br><br>
     <label>DNI:</label><br>
-    <input type="number:" name="DNI"><br><br>
+    <input type="number:" name="dni" placeholder="Ingresar DNI" id="dni"><br><br>
     <label>Direcci&oacute;n:</label><br>
-    <textarea name="Direccion:" rows="5" cols="40">Ingrese la Direccion de su vivienda</textarea><br><br>
-<button class="btn-sucess">
-    <a href=ejemplo_2_tablas.html>Enter</a href></button>
+    <textarea name="direccion:" rows="5" cols="40" placeholder="Ingrese direcci&oacute;n" id="direccion"></textarea><br><br>
+<button type="submit" value="enviar">enviar</button>
+    
 </form>
 
 </body>

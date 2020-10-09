@@ -1,0 +1,98 @@
+#primary{
+    width: 100%;
+    height: 100%;
+}
+#primary #header{
+    width:  100%;
+    height: 250px;
+}
+#primary #header #left{
+    float: left; 
+    width: 35%;
+}
+#primary #header #left #header-left-one{
+
+}
+#primary #header #left #header-left-two{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(116, 207, 24);
+    font-weight: bold;
+}
+#primary #header #left #header-left-two #header-left-two-left{
+    float: left;
+    width: 60%;
+    background-color: rgb(116, 207, 24);
+}
+#primary #header #left #header-left-two #header-left-two-right{
+    float: right;
+    width: 40%;
+    background-color: rgb(116, 207, 24);
+}
+#primary #header #left #header-left-three{
+    width: 100%;
+    height: 40px;
+    border: 2px solid ;
+    border-color:  rgb(116, 207, 24);
+    background-color: rgb(255, 255, 255);
+
+}
+#primary #header #left #header-left-three #header-left-three-up{
+    float: none;
+    width: 100%;
+
+}
+#primary #header #left #header-left-three #header-left-three-left{
+    float: left;
+    width: 60%;
+}
+#primary #header #left #header-left-three #header-left-three-right{
+    float: right;
+    width: 40%;
+}
+#primary #header #left #header-left-four{
+    width: 100%;
+    height: 28%;
+    border-top: 2px solid rgb(116, 207, 24);
+    border-bottom: 2px solid rgb(116, 207, 24);
+}
+#primary #header #left #header-left-five{
+    width: 100%;
+    height: 20%;
+    
+}
+
+#primary #header #right{
+    float: right;
+    width: 64%;
+    padding-left: 5px;
+}
+#primary #header #right #header-right-one{
+    width: 100%;
+    height: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+#primary #header #right #header-right-two{
+    width: 100% ;
+    height: 40%;
+    border-top: 2px solid rgb(8, 184, 228);
+    border-bottom: 2px solid rgb(8, 184, 228);
+}
+#primary #header #right #header-right-two #header-right-two-left{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 100%;
+}
+#primary #header #right #header-right-two #header-right-two-center{
+   text-align: center;
+}
+#primary #header #right #header-right-two #header-right-two-right{
+    float: right;
+}
+#primary #header #right #header-right-three{
+    width: 100%;
+    height: 60%;
+    border-top: 2px solid rgb(8, 184, 228);
+    border-bottom: 2px solid rgb(8, 184, 228);
+}

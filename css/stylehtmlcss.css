@@ -1,0 +1,203 @@
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: initial;
+}
+body{
+    background-image: url("../fondo.jpg");
+    background-repeat: no-repeat,
+    background-attachment: fixed,
+}
+/*Align-content*/
+#contenedor1 {
+   width: 70px; 
+   height: 220px;
+   border: 4px solid black;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+}
+#contenedor1 div{
+    width: 70px;
+    height: 60px;
+    border: 1px solid rgb(48, 205, 216);
+}
+#contenedor1 #contenedor1-elemento1 {
+    background-color: yellow;
+}
+#contenedor1 #contenedor1-elemento2 {
+    background-color: blue;
+}
+#contenedor1 #contenedor1-elemento3 {
+    background-color: red;
+}
+/*align-items*/
+#contenedor2 {
+    width: 200px;
+    height: 200px;
+    border: 4px dashed black ;
+    display: flex;
+    align-items: center;
+}
+#contenedor2 div{
+    width: 100px;
+    height: 140px;
+    border: 1px dotted royalblue;
+}
+#contenedor2 #contenedor2-elemento1 {
+    background-color: pink;
+}
+#contenedor2 #contenedor2-elemento2 {
+    background-color: purple;
+}
+/*align-self*/
+#contenedor3 {
+    width: max-content;
+    height: 300px;
+    border: 6px solid aquamarine;
+    display: flex;
+    align-items: stretch;
+}
+#contenedor3 div{
+    flex: 1;
+}
+#contenedor3 #contenedor3-elemento1{
+    background-color: darkgrey;
+}
+#contenedor3 #contenedor3-elemento2{
+    background-color: fuchsia;
+    align-self: baseline;
+}
+#contenedor3 #contenedor3-elemento3{
+    background-color: gold;
+    border: olive;
+    align-self: flex-end;
+}
+#contenedor3 #contenedor3-elemento4{
+    background-color: palegreen;
+    align-self: center;
+}
+/*Animation*/
+#contenedor4{
+    width: 100px;
+    height: 50px;
+    background-color: peachpuff;
+    position: relative;
+    animation: mymove1 5s infinite;
+}
+@keyframes mymove1{
+    from{ left: 0px;}
+    to{ left: 400px;}
+}
+/*animation-delay*/
+#contenedor5{
+    width: 300px;
+    height: 50px;
+    border: 2px dotted purple;
+    background-color: rosybrown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    position: relative;
+    animation: mymove2 10s infinite;
+    animation-delay: 4s;
+}
+@keyframes mymove2{
+    from{left: 0px;}
+    to{ left: 300px;}
+}
+/*animation-direction*/
+#contenedor6{
+    width: 50px;
+    height: 50px;
+    background-color: steelblue;
+    border: 4px double black;
+    position: relative;
+    animation: mymove3 10s infinite;
+    animation-direction: alternate;
+}
+@keyframes mymove3{
+    0% {background: blanchedalmond; left: 0px; top: 0px;}
+    10%{background: gray; left: 0px;}    
+    20% {background: yellow; left: 20px; top: 0px;}
+    30%{background: firebrick; left: 200px; top: 10px;}
+    40%{background: darkorange; left: 30px; top: 0px;}
+    50% {background: cadetblue; left: 30px; top: 20px;}
+    60%{background: cyan; left: 0px; top: 10px;}
+    70% {background: red; left: 0px; top: 20px;}
+    80%{background: coral; left: 50px; top: 20px;}
+    90%{background: cornflowerblue; left: 30px; top: 50px;}
+    100% {background: purple; left: 0px; top: 25px;}
+}
+/*animation-duration*/
+#contenedor7{
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    border: 2px dashed blue;
+    position: relative;
+    animation: mymove4 infinite;
+    animation-duration: 5s;
+}
+@keyframes mymove4{
+    from{ left: 0px;}
+    to{ left: 200px;}
+}
+/*animation-fill-mode and animation-iteration-count*/
+#contenedor8{
+    width: 100px;
+    height: 50px;
+    background-color: darkkhaki;
+    border: 3px dotted black;
+    position: relative;
+    animation: mymove5 6s;
+    animation-fill-mode: both;
+    animation-iteration-count: 5;
+}
+@keyframes mymove5{
+    from{background: burlywood; top: 50px;}
+    to{background: cadetblue; top: 20px;}
+}
+/*animation-timing-function*/
+#contenedor9{
+    width: 100px;
+    height: 70px;
+    background: springgreen;
+    font-weight: bold;
+    position: relative;
+    animation: mymove6 10s infinite
+}
+#contenedor9 #contenedor9-elemento1{
+    animation-timing-function: linear ;
+    width: 100px;
+    height: 15px;
+    background: rgb(103, 110, 107);
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+#contenedor9 #contenedor9-elemento2{
+    animation-timing-function: ease;
+    width: 100px;
+    height: 15px;
+    background: rgb(124, 118, 150);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation: mymove6 15s infinite
+}
+#contenedor9 #contenedor9-elemento3{
+    animation-timing-function: ease-in;
+}
+#contenedor9 #contenedor9-elemento4{
+    animation-timing-function: ease-out;
+    width: 100px;
+    height: 15px;
+    background: rgb(169, 185, 75);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation: mymove6 5s infinite
+}
+@keyframes mymove6{
+    from{ left: 0px;}
+    to{ left: 600px;}
+}
